@@ -1,7 +1,7 @@
 # Class: profiles::puppetmaster
 #
 #
-class profiles::puppetrmaster {
+class profiles::puppetmaster {
   # resources
   # Configure puppetdb and its underlying database
   class { 'puppetdb': }
